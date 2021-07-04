@@ -113,11 +113,43 @@ textarea {
   border-color: rgb(118, 118, 118);
 }
 
+.errors_message {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.errors_message h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+.errors_ul {
+  font-family: verdana, arial, helvetica, sans-serif;
+  list-style: square;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+div.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
 .flash {
   margin: 33px;
 }
 
 .flash_message {
   color: green;
-  
 }
